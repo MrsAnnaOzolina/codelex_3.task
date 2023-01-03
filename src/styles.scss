@@ -1,3 +1,161 @@
-body {
-  background-color: antiquewhite;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); 
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+.header{
+  background-color: black;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  height: 70px;
+}
+.menu{
+  background-color: red;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+.hero{
+  background-color: rgb(47, 102, 121);
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  background-color: rgb(44, 44, 157);
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image{
+  background-color: rgb(67, 239, 182);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.extra{
+  background-color: rgb(18, 206, 46);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.banner{
+  background-color:rgb(253, 218, 15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1152px){
+  .headerSMALL{
+    display: none;
+  }
+  .headerTablet{
+    display: none;
+  }
+  .headerSmall{
+    display: none;
+  }
+  .hero{
+    height: 350px;
+  }
+  .main{
+    height: 200px;
+  }
+  .image{
+    height: 100px;
+  }
+  .extra{
+    height: 100px;
+  }
+  .mainTABLET{
+    display: none;
+  }
+  .banner{
+    height: 100px;
+  }
+  .mainSmall{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1151px) and (min-width:375px){
+  .headerPC{
+    display: none;
+  }
+  .headerSmall{
+    display: none;
+  }
+  .mainSmall{
+    display: none;
+  }
+  .hero{
+    height: 300px;
+  }
+  .main{
+    height: 200px;
+  }
+  .mainPC{
+    display: none;
+  }
+  .image{
+    height: 100px;
+  }
+  .extra{
+    height: 100px;
+  }
+  .banner{
+    height: 100px;
+  }
+  .menu{
+    height: 400px;
+  }
+  .bannerPC{
+    display: none;
+  }
+  .mainSmall{
+    display: none;
+  }
+}
+@media screen and (max-width:374px){
+  .headerPC{
+    display: none;
+  }
+  .headerTablet{
+    display: none;
+  }
+  .hero{
+    height: 150px;
+  }
+  .main{
+    height: 150px;
+  }
+  .mainTABLET{
+    display:none;
+  }
+  .mainPC{
+    display: none;
+  }
+  .bannerPC{
+    display: none;
+  }
+  .image{
+    height: 150px;
+  }
+  .extra{
+    height: 150px;
+  }
+  .banner{
+    height: 150px;
+  }
 }
